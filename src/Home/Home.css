@@ -1,3 +1,54 @@
 *{
     background-color: #FEDB27;
 }
+.blague-container {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.blague-content {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.question, .reponse {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0;
+}
+
+.bouton-nouvelle-blague, .bouton-toggle {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.bouton-nouvelle-blague {
+    background-color: #4CAF50;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.bouton-toggle {
+    background-color: #2196F3;
+    color: white;
+    width: 100%;
+}
+
+.bouton-nouvelle-blague:hover, .bouton-toggle:hover {
+    opacity: 0.9;
+}
+
+.bouton-nouvelle-blague:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
