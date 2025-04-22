@@ -1,4 +1,7 @@
-const BASE_URL = 'http://localhost:3000';
+const BASE_URL = import.meta.env.PROD
+    ? 'https://backend-simplon-carembar.onrender.com' // URL de votre API en production
+    : 'http://localhost:3000'; // URL de développement
+
 
 const apiService = {
     async getRandomJoke() {
