@@ -1,12 +1,7 @@
-# React + Vite
+Bonjour,
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ici vous retrouverais le dépot front-end de mon site de carambar.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Le lien vers le render est : https://backend-simplon-carembar.onrender.com
+le viens vers le swagger est : https://backend-simplon-carembar.onrender.com/api-docs/ (marche que en local)
+le liens vers le site front-end est : https://depaze33.github.io/front-end-simplon-carambar/
